@@ -1,0 +1,59 @@
+body {
+  font-family: 'Roboto'
+}
+
+header {
+  background: url(../img/header.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.navbar-default {
+  border: none;
+  background: transparent;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.header-inner {
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+
+.header-inner h4 {
+  font-size: 24px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.header-inner h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.btn-danger {
+  background-color: #e92121;
+  border-radius: 0px;
+  width: 170px;
+  height: 55px;
+  margin-right: 25px;
+}
+
+.btn-default {
+  background-color: transparent;
+  border-radius: 0px;
+  border: 2px solid white;
+  width: 205px;
+  height: 55px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .header-inner h1 {
+    font-size: 45px;
+  }
+}
