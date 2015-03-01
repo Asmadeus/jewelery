@@ -107,6 +107,21 @@ p {
   margin-bottom: 30px;
 }
 
+.carousel-inner .item {
+  padding: 70px 0px;
+  padding-left: 20%;
+}
+
+#slider {
+  background: #faf9f9;
+}
+
+#slider .carousel-caption {
+  /*padding-bottom: 230px;*/
+  bottom: 50%;
+  color: black;
+}
+
 @media (max-width: 768px) {
   .header-inner h1 {
     font-size: 40px;
