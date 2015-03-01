@@ -8,6 +8,11 @@ header {
   background-position: center center;
 }
 
+p {
+  color: #b7b7b7;
+  font-weight: lighter;
+}
+
 .navbar-default {
   border: none;
   background: transparent;
@@ -52,8 +57,74 @@ header {
   color: white;
 }
 
+.history {
+  margin-top: 100px;
+}
+
+.history h3 {
+  text-transform: uppercase;
+  font-size: 48px;
+  line-height: 60px;
+  padding-top: 85px;
+  font-weight: bold;
+  /*margin-left: 70px;*/
+}
+
+.history p {
+  font-size: 15px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.features {
+  margin-top: 100px;
+}
+
+.features h3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.corner {
+  background: url(../img/grill.png) no-repeat;
+  width: 67px;
+  height: 9px;
+  margin: 20px auto;
+}
+
+.features-title {
+  margin-bottom: 125px;
+}
+
+.features-item {
+  margin-bottom: 75px;
+}
+
+.features-item h5{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
 @media (max-width: 768px) {
   .header-inner h1 {
-    font-size: 45px;
+    font-size: 40px;
   }
+
+  .history h3 {
+    font-size: 35px;
+    line-height: 41px;
+    padding-top: 60px;
+  }
+
+  .history p {
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 20px;
+  }
+}
+
+hr {
+  border-top: 2px solid #f1f1f1;
 }
